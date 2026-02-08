@@ -36,7 +36,7 @@ export function Header() {
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2.5">
-          <img src="/app-icon.png" alt="Burnrate" className="h-8 w-8" />
+          <img src={`${import.meta.env.BASE_URL}app-icon.png`} alt="" className="h-8 w-8" />
           <span className="text-lg font-bold text-text-primary">Burnrate</span>
         </a>
 

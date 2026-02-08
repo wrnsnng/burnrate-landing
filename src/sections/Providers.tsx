@@ -13,7 +13,7 @@ const providers: Provider[] = [
   {
     name: 'Claude',
     color: '#DA7756',
-    logo: '/claude-logo.svg',
+    logo: `${import.meta.env.BASE_URL}claude-logo.svg`,
     description:
       'Full usage tracking with 5-hour, 7-day & Opus rate limits. Real-time progress bars with status indicators.',
     status: 'Full Support',
@@ -21,7 +21,7 @@ const providers: Provider[] = [
   {
     name: 'Codex (OpenAI)',
     color: '#10A37F',
-    logo: '/openai-logo.svg',
+    logo: `${import.meta.env.BASE_URL}openai-logo.svg`,
     description:
       "Session tracking and usage monitoring for OpenAI's Codex CLI.",
     status: 'Supported',
@@ -29,7 +29,7 @@ const providers: Provider[] = [
   {
     name: 'Kimi K2.5',
     color: '#6366F1',
-    logo: '/kimi-logo.svg',
+    logo: `${import.meta.env.BASE_URL}kimi-logo.svg`,
     description:
       'CLI detection with automatic install guidance. Usage tracking coming soon.',
     status: 'Coming Soon',
@@ -37,7 +37,7 @@ const providers: Provider[] = [
   {
     name: 'Gemini',
     color: '#4285F4',
-    logo: '/gemini-logo.svg',
+    logo: `${import.meta.env.BASE_URL}gemini-logo.svg`,
     description:
       'Google Gemini CLI detection and setup. Usage tracking in development.',
     status: 'Coming Soon',

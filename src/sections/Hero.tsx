@@ -36,7 +36,7 @@ export function Hero() {
         {/* Floating app icon */}
         <motion.div variants={fadeUp} className="mb-10">
           <motion.img
-            src="/app-icon.png"
+            src={`${import.meta.env.BASE_URL}app-icon.png`}
             alt="Burnrate"
             className="h-40 w-40 drop-shadow-[0_0_60px_rgba(249,115,22,0.3)] md:h-48 md:w-48"
             animate={{ y: [0, -8, 0] }}
