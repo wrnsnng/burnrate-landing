@@ -1,5 +1,6 @@
 {
   "rewrites": [
-    { "source": "/burnrate/(.*)", "destination": "/index.html" }
+    { "source": "/burnrate", "destination": "/" },
+    { "source": "/burnrate/(.*)", "destination": "/$1" }
   ]
 }
