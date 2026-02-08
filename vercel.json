@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/burnrate/(.*)", "destination": "/index.html" }
+  ]
+}
